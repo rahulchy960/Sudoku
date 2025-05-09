@@ -157,8 +157,8 @@ nav {
 }
 
 .input-name {
-    height: 80px;
-    width: 280px;
+    height: 60px;
+    width: 220px;
     border-radius: var(--border-radius);
     outline: 0;
     background-color: var(--bg-main);
@@ -168,8 +168,8 @@ nav {
 }
 
 .btn {
-    height: 80px;
-    width: 280px;
+    height: 60px;
+    width: 220px;
     background-color: var(--bg-main);
     color: var(--color-txt);
     border-radius: var(--border-radius);
@@ -209,11 +209,18 @@ nav {
 .main-game {
     display: flex;
     height: 100%;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
     padding: 30px 0;
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
+}
+
+.control{
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .main-game.active {
